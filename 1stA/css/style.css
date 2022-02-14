@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background-color: #984578;
+    color: #76BEE8 ;
+}
+
+html {
+    overflow-y: scroll;
+    scroll-snap-type: y, proximity;
+    height: 100vh;
+
+}
+
+html::-webkit-scrollbar {
+    background-color: #984578;
+    width: .75em;
+
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #76BEE8;
+    border-radius: 100vw;
+}
+
+img {
+    height: 150px;
+}
+
+img::selection {
+    background-color: transparent;
+
+}
+
+h1, h2, p {
+    font-family: 'Anton', sans-serif;
+    font-size: 3.5em;
+}
+
+a {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+}
+
+/* wrapper */
+#wrapper {
+  overflow-x: hidden;
+  height: 100%;
+
+}
+
+/* home page*/
+#home-page {
+    background-image: url(/1stA/img/bg/home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed, local;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+}
+
+#background {
+    width: 100vw;
+}
+
+#title {
+    font-size: 5.2em;
+    -webkit-text-stroke: 1px #76BEE8; 
+    /* background-color: pink; */
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#logo img {
+    border: 1px solid #76BEE8;
+    height: 100px;
+}
+
+#union-jack {
+    width: 75px;
+}
+
+#title-link {
+    -webkit-text-stroke: 1px #76BEE8; 
+    color: black;
+    font-size: 2em;
+}
+
+#about-us {
+    background-image: url(/1stA/img/bg/about-us\(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; */
+
+    scroll-snap-align: start;
+
+}
+
+#aboutus-title {
+    -webkit-text-stroke: .1px #984578;
+    position: relative;
+    top: 50px; 
+    margin: auto;
+    width: fit-content;
+}
+
+#space-games {
+    position: relative;
+    top: 10px;
+}
+
+#footer {
+    height: 5vh;
+    background-image: url(/1stA/img/bg/texture.png);
+    background-size: auto;
+
+    display: flex;
+    align-items: center;
+}
+
+.flags {
+    height: 50px;
+    border: 1px solid #76BEE8;
+}
+
+.fotos-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 2em;
+    /* background-color: royalblue; */
+    border: 5px solid #984578 ;
+    transition: 400ms;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.links:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #76BEE8;
+
+}
+
+.page {
+    height: 110vh;
+    scroll-snap-align: start;
+}
+
+.about-us-container {
+    margin: 200px 0 0 ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-us-content {
+    background-color:rgba(152, 69, 120, 50%);
+    border: 5px solid #984578;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 5%;
+
+    font-size: 1.70em;
+    padding: 0px 40px ;
+    height: 650px;
+    width: 500px;
+
+    transition: 400ms;
+}
+
+.about-us-content:hover {
+    background-color:rgba(152, 69, 120, 30%);
+    border: 5px solid rgba(152, 69, 120, 70%);
+    box-shadow: 10px 10px 20px black;
+
+    cursor: default;
+
+}
+
+.about-us-content p {
+    font-size: 1em;
+}
+
+.about-us-content ul {
+    font-size: 1em;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+.about-us-content h3 {
+    font-family: 'Anton', sans-serif;
+    margin:  0 0 10px 0;
+    
+}
+
+.about-us-content li::marker {
+    color: #76BEE8;
+
+}
+
+.lines {
+    list-style: square inside none;
+
+}
+
+
+
+.blue {
+    -webkit-text-stroke: 1px #76BEE8;
+
+}
+
+.pink {
+    -webkit-text-stroke: .5px #984578;
+
+}
