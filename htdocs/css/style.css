@@ -40,6 +40,10 @@ h1, h2, p {
     font-size: 3.5em;
 }
 
+h1:hover, h2:hover, p:hover {
+    cursor: default;
+}
+
 a {
     font-family: 'Anton', sans-serif;
     font-size: 1.5em;
@@ -47,18 +51,20 @@ a {
     text-decoration: none;
 }
 
+
+
 /* wrapper */
 #wrapper {
-  overflow-x: hidden;
-  height: 100%;
+    overflow-x: hidden;
+    height: 100%;
 
 }
 
 /* home page*/
 #home-page {
-    background-image: url(/1stA/img/bg/home.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-attachment: fixed, local;
 
     display: flex;
@@ -69,6 +75,7 @@ a {
     height: 100vh;
 
 }
+
 
 #background {
     width: 100vw;
@@ -95,13 +102,20 @@ a {
 }
 
 #title-link {
-    -webkit-text-stroke: 1px #76BEE8; 
+    -webkit-text-stroke: 1.5px #76BEE8; 
     color: black;
     font-size: 2em;
+    transition: 500ms;
+}
+
+#title-link:hover {
+    -webkit-text-stroke: .1px #76BEE8; 
+    text-shadow: 3px 3px 5px  #76BEE8;
+
 }
 
 #about-us {
-    background-image: url(/1stA/img/bg/about-us\(1\).jpg);
+    background-image: url(/htdocs/img/bg/about-us\(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -129,11 +143,19 @@ a {
 
 #footer {
     height: 5vh;
-    background-image: url(/1stA/img/bg/texture.png);
+    background-image: url(/htdocs/img/bg/texture.png);
     background-size: auto;
 
     display: flex;
     align-items: center;
+}
+
+#footer a {
+    transition: 600ms;
+}
+
+#footer a:hover {
+    text-shadow: 1px 1px 5px  #76BEE8;
 }
 
 .flags {
