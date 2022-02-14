@@ -8,9 +8,14 @@ function drawAboutPage() {
     const backgroundHomePage = homePage.style.backgroundImage = 'url(/htdocs/img/bg/about-us-amercian.jpg)';
 }
 
+function drawFooter() {
+    const homePage = document.querySelector('#footer');
+    const backgroundHomePage = homePage.style.backgroundImage = 'url(/htdocs/img/bg/texture.png)';
+}
 
 
 
-drawHomePage()
 
-drawAboutPage()
+drawHomePage();
+drawAboutPage();
+drawFooter();
