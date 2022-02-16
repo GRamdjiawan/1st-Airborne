@@ -5,17 +5,9 @@ function drawHomePage() {
 
 function drawAboutPage() {
     const homePage = document.querySelector('#about-us');
-    const backgroundHomePage = homePage.style.backgroundImage = 'url(/htdocs/img/bg/about-us-amercian.jpg)';
+    const backgroundHomePage = homePage.style.backgroundImage = 'url(/htdocs/img/bg/about-us.jpg)';
 }
-
-function drawFooter() {
-    const homePage = document.querySelector('#footer');
-    const backgroundHomePage = homePage.style.backgroundImage = 'url(/htdocs/img/bg/texture.png)';
-}
-
-
 
 
 drawHomePage();
 drawAboutPage();
-drawFooter();
