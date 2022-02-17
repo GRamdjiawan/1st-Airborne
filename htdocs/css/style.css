@@ -26,7 +26,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-    background-image: url(/htdocs/img/bg/texture.png);
+    background-image: url(..//img/bg/texture.png);
     background-attachment: fixed;
 
 }
