@@ -145,7 +145,8 @@ a {
 #about-us {
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center;
+    background-attachment: fixed, local;
     /* display: flex;
     flex-direction: column;
     align-items: center;
@@ -310,4 +311,132 @@ a {
 .pink {
     -webkit-text-stroke: .5px #991010;
 
+}
+
+@media (max-width: 1650px) {
+    .about-us-container {
+        /* flex-direction: column ;   */
+        align-items: center;  
+    }
+
+    .about-us-content {
+        /* height: fit-content; */
+        width: 400px;
+        font-size: 18pt;
+    }
+}
+
+@media (max-width: 1450px) {
+    .about-us-container {
+        /* flex-direction: column ;   */
+        align-items: center;  
+    }
+
+    .about-us-content {
+        /* height: fit-content; */
+        width: 300px;
+        font-size: 16pt;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    #about-us {
+        height: fit-content;
+    }
+
+    #footer {
+        display: none;
+    } 
+
+    .about-us-container {
+        flex-direction: column ;  
+        align-items: center;  
+    }
+
+    .about-us-content {
+        margin: 20px 0 0 0;
+        height: fit-content;
+        width: 400px;
+        font-size: 15pt;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 960px) {
+    #title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 750px) {
+    #mid {
+        align-items: center;
+        width: 100%;
+    }
+
+    #logo img {
+        height: 70px;
+    }
+}
+
+
+
+@media (max-width: 500px) {
+
+    #left{
+        justify-content: flex-start;
+        padding: 0 0 0 20px;
+    }
+
+    #mid {
+        align-items: center;
+        width: 100%;
+    }
+
+
+
+    #logo img {
+        height: 50px;
+    }
+
+    #flags {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #right{
+        justify-content: flex-start;
+        padding: 0 0 0 20px;
+    }
+
+    #title {
+        font-size: 50pt;
+        text-align: center;
+    }
+    
+    #about-us {
+        height: fit-content;
+    }
+   
+    #footer {
+        display: none;
+    } 
+
+    .nav {
+        align-items: flex-start;
+        font-size: 8pt;
+    }
+    
+    .about-us-container {
+        flex-direction: column ;  
+        align-items: center;  
+    }
+
+    .about-us-content {
+        margin: 20px 0 0 0;
+        height: fit-content;
+        width: 300px;
+        font-size: 15pt;
+    }
 }
