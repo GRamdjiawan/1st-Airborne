@@ -204,6 +204,10 @@ h3 {
     filter: grayscale(0);
 }
 
+.show-gifs {
+    display: none;
+}
+
 .footer {
     background-image: url(../img/bg/texture.png);
     overflow-x: hidden;
@@ -218,4 +222,19 @@ h3 {
 
 .social-media {
     height: 48px;
+}
+
+@media screen and (max-width:500px) {
+    .hide-clips {
+        display: none;
+    }
+
+    .show-gifs {
+        display: block;
+    }
+
+    .clips {
+        filter: grayscale(0);
+    }
+
 }
