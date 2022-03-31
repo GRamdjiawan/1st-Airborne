@@ -1,3 +1,7 @@
+window.addEventListener('load', () => {
+    window.location.href = "index.html#start";
+})
+
 function playClip() {
     const clips = document.querySelectorAll('.clips')
 
@@ -19,6 +23,7 @@ function playClip() {
 
     })
 }
+
 
 
 playClip();
