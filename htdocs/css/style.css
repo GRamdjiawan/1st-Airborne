@@ -22,6 +22,7 @@ html::-webkit-scrollbar-thumb {
 
 body {
     font-family: 'Anton', sans-serif;
+    background-image: url(../img/bg/texture.png);
 
 }
 
