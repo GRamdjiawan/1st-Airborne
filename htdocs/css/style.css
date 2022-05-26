@@ -7,6 +7,7 @@ html {
     overflow-y: scroll;
     scroll-snap-type: y, proximity;
     height: 100vh;
+    background-image: url(../img/bg/texture.png);
 
 }
 
@@ -22,7 +23,6 @@ html::-webkit-scrollbar-thumb {
 
 body {
     font-family: 'Anton', sans-serif;
-    background-image: url(../img/bg/texture.png);
 
 }
 
@@ -92,7 +92,7 @@ h3 {
 }
 
 .home-page {
-    background-image: url(../img/bg/home.png);
+    background-image: url(../img/bg/home-img.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -237,5 +237,14 @@ h3 {
     .clips {
         filter: grayscale(0);
     }
+
+    /* 
+    .background {
+        background-size: ;
+        background-position: center;
+    } */
+
+
+
 
 }
