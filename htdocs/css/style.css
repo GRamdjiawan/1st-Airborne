@@ -1,3 +1,13 @@
+@font-face {
+    font-family: gunplay;
+    src: url(../fonts/gunplay/gunplay\ rg.ttf);
+}
+
+@font-face {
+    font-family: fira-sans;
+    src: url(../fonts/Fira_Sans/FiraSans-Regular.ttf);
+}
+
 ::selection {
     background-color: #991010;
     color: black;
@@ -8,13 +18,11 @@ html {
     scroll-snap-type: y, proximity;
     height: 100vh;
     background-image: url(../img/bg/texture.png);
-
 }
 
 html::-webkit-scrollbar {
     background-color: black;
     width: .75em;
-
 }
 
 html::-webkit-scrollbar-thumb {
@@ -22,11 +30,11 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-    font-family: 'Anton', sans-serif;
-
+    font-family: 'gunplay', sans-serif;
 }
 
 p {
+    font-family: 'fira-sans', sans-serif;
     color: black;
     -webkit-text-stroke: 1.5px white;
 }
@@ -52,52 +60,12 @@ h3 {
     background-image: url(../img/bg/texture.png);
 }
 
-.logo-container {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.logo {
-    height: 80px;
-
-}
-
-.flags {
-    height: 20px;
-    margin: 0;
-    border: 2px solid rgba(153, 16, 16, 0.5);
-
-}
-
-.union-jack {
-    width: 30px;
-
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: white;
-    -webkit-text-stroke: 1.5px #991010;
-
-    font-size: 2.0em;
-    margin: 0 50px;
-
-}
-
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: white;
-    -webkit-text-stroke: .1px #991010;
-    text-shadow: 3px 3px 5px #991010;
-
-}
-
 .home-page {
     background-image: url(../img/bg/home-img.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
     padding: 0px 0 200px 0;
     overflow-x: hidden;
 }
@@ -105,7 +73,6 @@ h3 {
 .spacer-page {
     height: 10vh;
     background-image: url(../img/bg/texture.png);
-
 }
 
 
@@ -115,9 +82,50 @@ h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
     padding: 200px 0 400px 0;
     overflow-x: hidden;
+}
+
+.clip-page {
+    background: url(../img/bg/clips.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 200px 0 100px 0;
+    overflow-x: hidden;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 80px;
+}
+
+.flags {
+    height: 20px;
+    margin: 0;
+    border: 2px solid rgba(153, 16, 16, 0.5);
+}
+
+.union-jack {
+    width: 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    -webkit-text-stroke: 1.5px #991010;
+    font-size: 2.0em;
+    margin: 0 50px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+    -webkit-text-stroke: .1px #991010;
+    text-shadow: 3px 3px 5px #991010;
 }
 
 .sub-title-about {
@@ -141,7 +149,6 @@ h3 {
     border: 5px solid rgba(153, 16, 16, 70%);
     box-shadow: 10px 10px 20px black;
     cursor: default;
-
 }
 
 /* .small-container {
@@ -164,44 +171,28 @@ h3 {
     color: #991010;
 }
 
-
-.clip-page {
-    background: url(../img/bg/clips.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
-    padding: 200px 0 100px 0;
-    overflow-x: hidden;
-}
-
 .clips-container {
     background-color: rgba(0, 0, 0, .9);
-
     height: fit-content;
     width: fit-content;
-
     margin: 50px auto;
     padding: 50px;
-
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .clips {
     width: 100%;
-    height: 200px;
-
-    border: 5px solid #991010;
+    height: 250px;
     box-shadow: 10px 10px 10px black;
-
     filter: grayscale(1);
+    border: 5px solid #991010;
 }
 
 .clips:hover {
+    transition: 1s;
     filter: grayscale(0);
 }
 
@@ -243,8 +234,4 @@ h3 {
         background-size: ;
         background-position: center;
     } */
-
-
-
-
 }
