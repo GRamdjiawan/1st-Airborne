@@ -60,6 +60,12 @@ h3 {
     background-image: url(../img/bg/texture.png);
 }
 
+.ghost {
+    height: 100px;
+    width: 100px;
+    background-color: #991010;
+}
+
 .home-page {
     background-image: url(../img/bg/home-img.png);
     background-position: center;
@@ -69,6 +75,8 @@ h3 {
     padding: 0px 0 200px 0;
     overflow-x: hidden;
 }
+
+
 
 .spacer-page {
     height: 10vh;

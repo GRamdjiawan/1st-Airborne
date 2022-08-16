@@ -1,3 +1,8 @@
+<?php
+    include_once("./php/dbConnection.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -75,6 +80,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"
         defer></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 
     <!-- Anton font -->
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -85,56 +91,9 @@
 </head>
 
 <body>
-    <div class="container-fluid header" id="start">
-        <div class="row nav-row">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <div class="logo-container">
-                            <img src="./img/logo-1stA.png" class="img-fluid logo" alt="1sta 1st-airborne">
-                            <div class="flag-container">
-                                <img src="./img/netherlands.png" alt="1sta 1st-airborne" class="flags">
-                                <img src="./img/belgium.png" alt="1sta 1st-airborne" class="flags">
-                                <img src="./img/union jack.png" alt="1sta 1st-airborne" class="flags union-jack">
-                            </div>
-                        </div>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                        <ul class="navbar-nav ">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about-page">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://discord.gg/8Dag4wvURX" target="_blank">Join Us On
-                                    Discord</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Social Media
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                    <li>
-                                        <a class="dropdown-item" target="_blank"
-                                            href="https://www.youtube.com/channel/UCYBgQxnSv89jMw6JhllhBQQ">Youtube</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" target="_blank"
-                                            href="mailto:firstairborne1@gmail.com">Mail</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
+    <?php
+        include_once("./templates/header.php");
+    ?>
     <div class="container-fluid background home-page">
         <div class="row">
             <div class="col-md-2"></div>
@@ -205,72 +164,45 @@
         <div class="row">
 
             <div class="clips-container hide-clips row">
+                <?php
+                    $clips = $db->prepare("SELECT * FROM clips");
+                    $clips->execute();
+                    $result = $clips->fetchAll(PDO::FETCH_ASSOC);
 
-                <div class="col-sm-6 col-md-4">
-                    <video src="./media/rev-dubble-kill.mp4" loop class="clips"></video>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <video src="./media/life-quad-feed.mp4" loop class="clips"></video>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <video src="./media/life-spawn-kills.mp4" loop class="clips"></video>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <video src="./media/bakx-assassin.mp4" loop class="clips"></video>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <video src="./media/bakxy-spawn-kamper.mp4" loop class="clips"></video>
-                </div>
+                    foreach($result as $data) {
+                        echo "
+                        <div class='col-sm-6 col-md-4'>
+                            <video src='./media/".$data["clip"]."' loop class='clips'></video>
+                        </div>
+                        
+                        ";
+                    }
+                
+                ?>
+                
 
             </div>
             <div class="col-md-12 clips-container show-gifs">
-                <div class="col-sm-6">
-                    <img class="clips" src="./img/gifs/rev dubble kill.gif" alt="1sta 1st-airborne">
-
-                </div>
-                <div class="col-sm-6">
-                    <img class="clips" src="./img/gifs/life-quad feed.gif" alt="1sta 1st-airborne">
-
-                </div>
-                <div class="col-sm-6">
-                    <img class="clips" src="./img/gifs/life-spawn-kills.gif" alt="1sta 1st-airborne">
-
-                </div>
-                <div class="col-sm-6">
-                    <img class="clips" src="./img/gifs/bakx-assassin.gif" alt="1sta 1st-airborne">
-
-                </div>
-                <div class="col-sm-6">
-                    <img class="clips" src="./img/gifs/bakxy-spawn-kamper.gif" alt="1sta 1st-airborne">
-
-                </div>
+                <?php
+                    $clips = $db->prepare("SELECT * FROM clips");
+                    $clips->execute();
+                    $result = $clips->fetchAll(PDO::FETCH_ASSOC);
+                    foreach($result as $data) {
+                        echo "
+                        <div class='col-sm-6'>
+                        <img class='clips' src='./img/gifs/".$data["gif"]."' alt='1sta 1st-airborne'>
+                        </div>
+                        ";
+                    }
+                ?>
             </div>
         </div>
     </div>
-    <div class="container-fluid background footer">
-        <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-2">
-                <a href="https://discord.gg/8Dag4wvURX" target="_blank">Join Us On Discord</a>
-            </div>
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-2">
-                <a href="https://www.youtube.com/channel/UCYBgQxnSv89jMw6JhllhBQQ">
-                    <img class="social-media" target="_blank" src="./img/social-media/youtube-1sta.png"
-                        alt="1sta 1st-airborne">
-                </a>
-                <a href="mailto:firstairborne1@gmail.com">
-                    <img class="social-media" target="_blank" src="./img/social-media/mail-1sta.png"
-                        alt="1sta 1st-airborne">
-                </a>
-            </div>
-            <div class="col-md-2">
-            </div>
-        </div>
-    </div>
+
+    <?php 
+        include_once("./templates/footer.php");
+    ?>
+   
 </body>
 
 </html>
