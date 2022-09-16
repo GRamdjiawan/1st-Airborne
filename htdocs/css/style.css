@@ -56,6 +56,10 @@ h3 {
     -webkit-text-stroke: 1px #991010;
 }
 
+.btn-1sta {
+    background-color: #991010;
+}
+
 .nav-row {
     background-image: url(../img/bg/texture.png);
 }
