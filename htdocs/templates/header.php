@@ -47,6 +47,12 @@
                                     Shop
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=E7PCPUYZB9GSW" target="_blank">
+                                    Donations
+                                    <i class="bi bi-heart-fill" ></i>
+                                </a>
+                            </li>
                         </ul>
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
