@@ -1233,7 +1233,13 @@
                 id="menu-item-1515"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1515"
               >
-                <a href="https://82nd.gg/manual/">Manual</a>
+                <a href="https://82nd.gg/manual/">Shop</a>
+              </li>
+              <li
+                id="menu-item-1515"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1515"
+              >
+                <a href="https://82nd.gg/manual/">Donations</a>
               </li>
             </ul>
           </nav>
