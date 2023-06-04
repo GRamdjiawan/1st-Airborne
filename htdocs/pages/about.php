@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="./img/favicon.ico" type="image/jpg">
+  <link rel="icon" href="../img/favicon.ico" type="image/jpg">
   <title>[1stA] Hell Let Loose Community</title>
   <meta name="robots" content="max-image-preview:large" />
-  <link rel="stylesheet" id="wp-block-library-css" href="./css/style.min.css" media="all" />
-  <link rel="stylesheet" id="classic-theme-styles-css" href="./css/classic-themes.min.css" media="all" />
+  <link rel="stylesheet" id="wp-block-library-css" href="../css/style.min.css" media="all" />
+  <link rel="stylesheet" id="classic-theme-styles-css" href="../css/classic-themes.min.css" media="all" />
   <style id="global-styles-inline-css">
     body {
       --wp--preset--color--black: #000000;
@@ -380,8 +380,8 @@
       line-height: 1.6;
     }
   </style>
-  <link rel="stylesheet" id="rt-tpg-css" href="./css/thepostgrid.css" media="all" />
-  <link rel="stylesheet" id="twentytwenty-style-css" href="./css/style.css" media="all" />
+  <link rel="stylesheet" id="rt-tpg-css" href="../css/thepostgrid.css" media="all" />
+  <link rel="stylesheet" id="twentytwenty-style-css" href="../css/style.css" media="all" />
   <style id="twentytwenty-style-inline-css">
     .color-accent,
     .color-accent-hover:hover,
@@ -617,17 +617,17 @@
       background-color: #262626;
     }
   </style>
-  <link rel="stylesheet" id="twentytwenty-print-style-css" href="./css/print.css" media="print" />
-  <link rel="stylesheet" id="simcal-qtip-css" href="./css/jquery.qtip.min.css" media="all" />
-  <link rel="stylesheet" id="simcal-default-calendar-grid-css" href="./cs" media="all" />
-  <link rel="stylesheet" id="simcal-default-calendar-list-css" href="./js/index.js" media="all" />
-  <script type="text/javascript" src="./js/jquery.min.js" id="jquery-core-js"></script>
-  <script type="text/javascript" src="./js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
-  <script type="text/javascript" src="./js/index.js" id="twentytwenty-js-js" async></script>
+  <link rel="stylesheet" id="twentytwenty-print-style-css" href="../css/print.css" media="print" />
+  <link rel="stylesheet" id="simcal-qtip-css" href="../css/jquery.qtip.min.css" media="all" />
+  <link rel="stylesheet" id="simcal-default-calendar-grid-css" href="../cs" media="all" />
+  <link rel="stylesheet" id="simcal-default-calendar-list-css" href="../js/index.js" media="all" />
+  <script type="text/javascript" src="../js/jquery.min.js" id="jquery-core-js"></script>
+  <script type="text/javascript" src="../js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+  <script type="text/javascript" src="../js/index.js" id="twentytwenty-js-js" async></script>
   <style type="text/css">
     html body.cbc-page {
       background-color: #0a0a0a;
-      background-image: url("./img/bg/about-us.jpg");
+      background-image: url("../img/bg/about-us.jpg");
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-position: top center;
@@ -707,8 +707,8 @@
         <div class="header-titles">
           <div class="site-logo faux-heading">
             <a href="https://1sta-clan.com" class="custom-logo-link" rel="home" aria-current="page"><img width="222"
-                height="221" src="./img/logo-1stA.png" class="custom-logo" alt="" decoding="async"
-                srcset="./img/logo-1stA.png" sizes="(max-width: 222px) 100vw, 222px" /></a><span
+                height="221" src="../img/logo-1stA.png" class="custom-logo" alt="" decoding="async"
+                srcset="../img/logo-1stA.png" sizes="(max-width: 222px) 100vw, 222px" /></a><span
               class="screen-reader-text"></span>
           </div>
           <div class="site-description">[1stA] Hell Let Loose Community</div>
@@ -740,7 +740,7 @@
               <a href="#" aria-current="page">Home</a>
             </li>
             <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24">
-              <a href="./pages/about.php">About</a>
+              <a href="#">About</a>
             </li>
             <li id="menu-item-1515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1515">
               <a href="#">Shop</a>
@@ -972,15 +972,6 @@
       </nav>
       <!-- .footer-social-wrapper -->
 
-      <div id="paypal-donate-box" class="wp-block-column">
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-          <input type="hidden" name="cmd" value="_s-xclick" />
-          <input type="hidden" name="hosted_button_id" value="E7PCPUYZB9GSW" />
-          <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0"
-            name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-          <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1" />
-        </form>
-      </div>
       <div id="footer-credits" class="wp-block-column">
         <a href="#" class="privacy-policy">Privacy Policy</a>
         &nbsp&nbsp&nbsp&nbsp&nbsp [1stA] &copy; 2023
