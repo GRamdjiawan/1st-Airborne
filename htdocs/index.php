@@ -141,7 +141,7 @@
       --wp--preset--color--pale-cyan-blue: #8ed1fc;
       --wp--preset--color--vivid-cyan-blue: #0693e3;
       --wp--preset--color--vivid-purple: #9b51e0;
-      --wp--preset--color--accent: #65662d;
+      --wp--preset--color--accent: #991010;
       --wp--preset--color--primary: #ffffff;
       --wp--preset--color--secondary: #aa7c7c;
       --wp--preset--color--subtle-background: #4f1111;
@@ -508,14 +508,14 @@
     .has-drop-cap:not(:focus):first-letter,
     .wp-block-button.is-style-outline,
     a {
-      color: #65662d;
+      color: #991010;
     }
 
     blockquote,
     .border-color-accent,
     .border-color-accent-hover:hover,
     .border-color-accent-hover:focus {
-      border-color: #65662d;
+      border-color: #991010;
     }
 
     button:not(.toggle),
@@ -531,12 +531,12 @@
     .bg-accent-hover:focus,
     :root .has-accent-background-color,
     .comment-reply-link {
-      background-color: #65662d;
+      background-color: #991010;
     }
 
     .fill-children-accent,
     .fill-children-accent * {
-      fill: #65662d;
+      fill: #991010;
     }
 
     :root .has-background-color,
@@ -640,7 +640,7 @@
     .archive-header a,
     .header-footer-group .color-accent,
     .header-footer-group .color-accent-hover:hover {
-      color: #65662d;
+      color: #991010;
     }
 
     .social-icons a,
@@ -652,7 +652,7 @@
     #site-footer input[type="button"],
     #site-footer input[type="reset"],
     #site-footer input[type="submit"] {
-      background-color: #65662d;
+      background-color: #991010;
     }
 
     .social-icons a,
@@ -818,14 +818,14 @@
     }
 
     .tribe-events-notices {
-      background: #65662d;
+      background: #991010;
       color: #000000;
       text-shadow: 0 0px 0 #000;
       border-color: #ffffff;
     }
 
     .tribe-events-page-title a {
-      color: #65662d;
+      color: #991010;
     }
 
     #forum-breadcrumbs {
