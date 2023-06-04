@@ -757,7 +757,7 @@
   <style type="text/css">
     html body.cbc-page {
       background-color: #0a0a0a;
-      background-image: url("assets/img/hll.jpg");
+      background-image: url("./img/bg/about-us.jpg");
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-position: top center;
@@ -843,8 +843,8 @@
         <div class="header-titles">
           <div class="site-logo faux-heading">
             <a href="https://1sta-clan.com" class="custom-logo-link" rel="home" aria-current="page"><img width="222"
-                height="221" src="assets/img/logo.png" class="custom-logo" alt="" decoding="async"
-                srcset="assets/img/logo.png" sizes="(max-width: 222px) 100vw, 222px" /></a><span
+                height="221" src="./img/logo-1stA.png" class="custom-logo" alt="" decoding="async"
+                srcset="./img/logo-1stA.png" sizes="(max-width: 222px) 100vw, 222px" /></a><span
               class="screen-reader-text"></span>
           </div>
           <div class="site-description">[1stA] Hell Let Loose Community</div>
