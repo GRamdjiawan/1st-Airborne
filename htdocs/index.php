@@ -937,7 +937,7 @@
           <nav aria-label="Expanded Social Links" role="navigation">
             <ul class="social-menu reset-list-style social-icons fill-children-current-color">
               <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31">
-                <a title="Join Discord" target="_blank" rel="noopener" href="https://discord.gg/DN2gvn9Mxe"><span
+                <a title="Join Discord" target="_blank" rel="noopener" href="https://discord.gg/1sta"><span
                     class="screen-reader-text">Join Discord</span><svg class="svg-icon" aria-hidden="true" role="img"
                     focusable="false" width="100" height="100" viewBox="-10 -20 270 270"
                     xmlns="http://www.w3.org/2000/svg">
@@ -949,7 +949,7 @@
                   </svg></a>
               </li>
               <li id="menu-item-2266" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2266">
-                <a title="Twitter" target="_blank" rel="noopener" href="https://twitter.com/82ADHLL"><span
+                <a title="Twitter" target="_blank" rel="noopener" href="https://twitter.com/hell_let_loose"><span
                     class="screen-reader-text">Twitter</span><svg class="svg-icon" aria-hidden="true" role="img"
                     focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path
