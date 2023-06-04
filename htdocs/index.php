@@ -746,7 +746,7 @@
               <a href="#">Shop</a>
             </li>
             <li id="menu-item-1515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1515">
-              <a href="#">Donations</a>
+              <a target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=E7PCPUYZB9GSW">Donations</a>
             </li>
           </ul>
         </nav>
@@ -973,7 +973,7 @@
       <!-- .footer-social-wrapper -->
 
       <div id="paypal-donate-box" class="wp-block-column">
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
           <input type="hidden" name="cmd" value="_s-xclick" />
           <input type="hidden" name="hosted_button_id" value="E7PCPUYZB9GSW" />
           <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0"
