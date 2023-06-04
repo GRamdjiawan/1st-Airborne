@@ -1,130 +1,12 @@
 <!DOCTYPE html>
-
 <html class="no-js" lang="en-GB">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="profile" href="https://gmpg.org/xfn/11" />
+  <link rel="icon" href="./img/favicon.ico" type="image/jpg">
   <title>[1stA] Hell Let Loose Community</title>
   <meta name="robots" content="max-image-preview:large" />
-  <script>
-    window._wpemojiSettings = {
-      baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
-      ext: ".png",
-      svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
-      svgExt: ".svg",
-      source: {
-        concatemoji:
-          "https:\/\/82nd.gg\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.3",
-      },
-    };
-    /*! This file is auto-generated */
-    !(function (e, a, t) {
-      var n,
-        r,
-        o,
-        i = a.createElement("canvas"),
-        p = i.getContext && i.getContext("2d");
-      function s(e, t) {
-        var a = String.fromCharCode,
-          e =
-            (p.clearRect(0, 0, i.width, i.height),
-              p.fillText(a.apply(this, e), 0, 0),
-              i.toDataURL());
-        return (
-          p.clearRect(0, 0, i.width, i.height),
-          p.fillText(a.apply(this, t), 0, 0),
-          e === i.toDataURL()
-        );
-      }
-      function c(e) {
-        var t = a.createElement("script");
-        (t.src = e),
-          (t.defer = t.type = "text/javascript"),
-          a.getElementsByTagName("head")[0].appendChild(t);
-      }
-      for (
-        o = Array("flag", "emoji"),
-        t.supports = { everything: !0, everythingExceptFlag: !0 },
-        r = 0;
-        r < o.length;
-        r++
-      )
-        (t.supports[o[r]] = (function (e) {
-          if (p && p.fillText)
-            switch (
-            ((p.textBaseline = "top"), (p.font = "600 32px Arial"), e)
-            ) {
-              case "flag":
-                return s(
-                  [127987, 65039, 8205, 9895, 65039],
-                  [127987, 65039, 8203, 9895, 65039]
-                )
-                  ? !1
-                  : !s(
-                    [55356, 56826, 55356, 56819],
-                    [55356, 56826, 8203, 55356, 56819]
-                  ) &&
-                  !s(
-                    [
-                      55356, 57332, 56128, 56423, 56128, 56418, 56128,
-                      56421, 56128, 56430, 56128, 56423, 56128, 56447,
-                    ],
-                    [
-                      55356, 57332, 8203, 56128, 56423, 8203, 56128,
-                      56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203,
-                      56128, 56423, 8203, 56128, 56447,
-                    ]
-                  );
-              case "emoji":
-                return !s(
-                  [129777, 127995, 8205, 129778, 127999],
-                  [129777, 127995, 8203, 129778, 127999]
-                );
-            }
-          return !1;
-        })(o[r])),
-          (t.supports.everything = t.supports.everything && t.supports[o[r]]),
-          "flag" !== o[r] &&
-          (t.supports.everythingExceptFlag =
-            t.supports.everythingExceptFlag && t.supports[o[r]]);
-      (t.supports.everythingExceptFlag =
-        t.supports.everythingExceptFlag && !t.supports.flag),
-        (t.DOMReady = !1),
-        (t.readyCallback = function () {
-          t.DOMReady = !0;
-        }),
-        t.supports.everything ||
-        ((n = function () {
-          t.readyCallback();
-        }),
-          a.addEventListener
-            ? (a.addEventListener("DOMContentLoaded", n, !1),
-              e.addEventListener("load", n, !1))
-            : (e.attachEvent("onload", n),
-              a.attachEvent("onreadystatechange", function () {
-                "complete" === a.readyState && t.readyCallback();
-              })),
-          (e = t.source || {}).concatemoji
-            ? c(e.concatemoji)
-            : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji)));
-    })(window, document, window._wpemojiSettings);
-  </script>
-  <style>
-    img.wp-smiley,
-    img.emoji {
-      display: inline !important;
-      border: none !important;
-      box-shadow: none !important;
-      height: 1em !important;
-      width: 1em !important;
-      margin: 0 0.07em !important;
-      vertical-align: -0.1em !important;
-      background: none !important;
-      padding: 0 !important;
-    }
-  </style>
   <link rel="stylesheet" id="wp-block-library-css" href="./css/style.min.css" media="all" />
   <link rel="stylesheet" id="classic-theme-styles-css" href="./css/classic-themes.min.css" media="all" />
   <style id="global-styles-inline-css">
@@ -498,7 +380,7 @@
       line-height: 1.6;
     }
   </style>
-  <link rel="stylesheet" id="rt-tpg-css" href="assets/css/thepostgrid.css" media="all" />
+  <link rel="stylesheet" id="rt-tpg-css" href="./css/thepostgrid.css" media="all" />
   <link rel="stylesheet" id="twentytwenty-style-css" href="./css/style.css" media="all" />
   <style id="twentytwenty-style-inline-css">
     .color-accent,
@@ -735,25 +617,13 @@
       background-color: #262626;
     }
   </style>
-  <link rel="stylesheet" id="twentytwenty-print-style-css" href="assets/css/print.css" media="print" />
-  <link rel="stylesheet" id="simcal-qtip-css" href="assets/css/jquery.qtip.min.css" media="all" />
-  <link rel="stylesheet" id="simcal-default-calendar-grid-css" href="assets/cs" media="all" />
-  <link rel="stylesheet" id="simcal-default-calendar-list-css" href="assets/js/index.js" media="all" />
-  <script type="text/javascript" src="js/jquery.min.js" id="jquery-core-js"></script>
-  <script type="text/javascript" src="js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
-  <script type="text/javascript" src="https://82nd.gg/wp-content/themes/82ndAD/assets/js/index.js?ver=1.4.6"
-    id="twentytwenty-js-js" async></script>
-  <link rel="https://api.w.org/" href="https://82nd.gg/wp-json/" />
-  <link rel="alternate" type="application/json" href="https://82nd.gg/wp-json/wp/v2/pages/55" />
-  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://82nd.gg/xmlrpc.php?rsd" />
-  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://82nd.gg/wp-includes/wlwmanifest.xml" />
-  <meta name="generator" content="WordPress 6.1.3" />
-  <link rel="canonical" href="https://82nd.gg/" />
-  <link rel="shortlink" href="https://82nd.gg/" />
-  <link rel="alternate" type="application/json+oembed"
-    href="https://82nd.gg/wp-json/oembed/1.0/embed?url=https%3A%2F%2F82nd.gg%2F" />
-  <link rel="alternate" type="text/xml+oembed"
-    href="https://82nd.gg/wp-json/oembed/1.0/embed?url=https%3A%2F%2F82nd.gg%2F&#038;format=xml" />
+  <link rel="stylesheet" id="twentytwenty-print-style-css" href="./css/print.css" media="print" />
+  <link rel="stylesheet" id="simcal-qtip-css" href="./css/jquery.qtip.min.css" media="all" />
+  <link rel="stylesheet" id="simcal-default-calendar-grid-css" href="./cs" media="all" />
+  <link rel="stylesheet" id="simcal-default-calendar-list-css" href="./js/index.js" media="all" />
+  <script type="text/javascript" src="./js/jquery.min.js" id="jquery-core-js"></script>
+  <script type="text/javascript" src="./js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+  <script type="text/javascript" src="./js/index.js" id="twentytwenty-js-js" async></script>
   <style type="text/css">
     html body.cbc-page {
       background-color: #0a0a0a;
@@ -772,12 +642,6 @@
       background-color: #0a0404;
     }
   </style>
-  <link rel="icon" href="https://82nd.gg/wp-content/uploads/2019/12/cropped-82nd_square-1-32x32.png" sizes="32x32" />
-  <link rel="icon" href="https://82nd.gg/wp-content/uploads/2019/12/cropped-82nd_square-1-192x192.png"
-    sizes="192x192" />
-  <link rel="apple-touch-icon" href="https://82nd.gg/wp-content/uploads/2019/12/cropped-82nd_square-1-180x180.png" />
-  <meta name="msapplication-TileImage"
-    content="https://82nd.gg/wp-content/uploads/2019/12/cropped-82nd_square-1-270x270.png" />
   <style id="wp-custom-css">
     .site-logo img {
       border-radius: 50px 50px;
@@ -873,16 +737,16 @@
           <ul class="primary-menu reset-list-style">
             <li id="menu-item-374"
               class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-55 current_page_item menu-item-374">
-              <a title="82nd AD &#8211; Home" href="https://82nd.gg/" aria-current="page">Home</a>
+              <a href="#" aria-current="page">Home</a>
             </li>
             <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24">
-              <a href="https://82nd.gg/about/">About</a>
+              <a href="#">About</a>
             </li>
             <li id="menu-item-1515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1515">
-              <a href="https://82nd.gg/manual/">Shop</a>
+              <a href="#">Shop</a>
             </li>
             <li id="menu-item-1515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1515">
-              <a href="https://82nd.gg/manual/">Donations</a>
+              <a href="#">Donations</a>
             </li>
           </ul>
         </nav>
@@ -912,19 +776,19 @@
               <li
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-55 current_page_item menu-item-374">
                 <div class="ancestor-wrapper">
-                  <a title="82nd AD &#8211; Home" href="https://82nd.gg/" aria-current="page">Home</a>
+                  <a href="#" aria-current="page">Home</a>
                 </div>
                 <!-- .ancestor-wrapper -->
               </li>
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24">
                 <div class="ancestor-wrapper">
-                  <a href="https://82nd.gg/about/">About</a>
+                  <a href="#">About</a>
                 </div>
                 <!-- .ancestor-wrapper -->
               </li>
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1515">
                 <div class="ancestor-wrapper">
-                  <a href="https://82nd.gg/manual/">Manual</a>
+                  <a href="#">Manual</a>
                 </div>
                 <!-- .ancestor-wrapper -->
               </li>
@@ -1015,15 +879,6 @@
 
   <div class="footer-nav-widgets-wrapper header-footer-group">
     <div class="footer-inner section-inner">
-      <div class="footer-top has-footer-menu has-social-menu">
-        <nav aria-label="Footer" role="navigation" class="footer-menu-wrapper">
-          <ul class="footer-menu reset-list-style">
-            <li id="menu-item-356" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-356">
-              <a title="Login / Register" href="https://82nd.gg/wp-login.php?redirect_to=%2F">Login / Register</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
 
       <aside class="footer-widgets-outer-wrapper" role="complementary">
         <div class="footer-widgets-wrapper">
@@ -1034,25 +889,14 @@
               </div>
             </div>
             <div class="widget widget_block">
-              <!-- <div class="widget-content">
-                  <iframe
-                    loading="lazy"
-                    class="game-stats-banner"
-                    title="[82AD] Server 1"
-                    src="https://server1.82nd.gg/serverinfo?embed=1"
-                    width="100%"
-                    height="190px;"
-                    style="overflow: hidden; border: 0px"
-                  ></iframe>
-                </div> -->
             </div>
             <div class="widget widget_block">
               <div class="widget-content">
-                <a href="https://server1.82nd.gg" target="_blank">
+                <a href="https://www.battlemetrics.com/servers/hll/15138013" target="_blank">
                   <figure class="wp-block-image">
                     <img decoding="async"
                       src="https://cdn.battlemetrics.com/b/horizontal500x80px/20590449.png?foreground=%23eeeeee&amp;background=%23222222&amp;lines=%23222222&amp;linkColor=%2364652d&amp;chartColor=%2322aa2c"
-                      alt="82AD Server 1 Stats" title="Click to view stats." />
+                      alt="1stA Server 1 Stats" title="Click to view stats." />
                   </figure>
                 </a>
               </div>
@@ -1138,7 +982,7 @@
         </form>
       </div>
       <div id="footer-credits" class="wp-block-column">
-        <a href="https://82nd.gg/privacy" class="privacy-policy">Privacy Policy</a>
+        <a href="#" class="privacy-policy">Privacy Policy</a>
         &nbsp&nbsp&nbsp&nbsp&nbsp [1stA] &copy; 2023
       </div>
       <a class="to-the-top" href="#site-header">
@@ -1152,103 +996,6 @@
   </footer>
   <!-- #site-footer -->
 
-  <script type="text/javascript"
-    src="https://82nd.gg/wp-content/plugins/google-calendar-events/assets/js/vendor/jquery.qtip.min.js?ver=3.1.36"
-    id="simcal-qtip-js"></script>
-  <script type="text/javascript"
-    src="https://82nd.gg/wp-content/plugins/google-calendar-events/assets/js/vendor/moment.min.js?ver=3.1.36"
-    id="simcal-fullcal-moment-js"></script>
-  <script type="text/javascript"
-    src="https://82nd.gg/wp-content/plugins/google-calendar-events/assets/js/vendor/moment-timezone-with-data.min.js?ver=3.1.36"
-    id="simcal-moment-timezone-js"></script>
-  <script type="text/javascript" id="simcal-default-calendar-js-extra">
-    /* <![CDATA[ */
-    var simcal_default_calendar = {
-      ajax_url: "\/wp-admin\/admin-ajax.php",
-      nonce: "40937ebf26",
-      locale: "en_GB",
-      text_dir: "ltr",
-      months: {
-        full: [
-          "January",
-          "February",
-          "March",
-          "April",
-          "May",
-          "June",
-          "July",
-          "August",
-          "September",
-          "October",
-          "November",
-          "December",
-        ],
-        short: [
-          "Jan",
-          "Feb",
-          "Mar",
-          "Apr",
-          "May",
-          "Jun",
-          "Jul",
-          "Aug",
-          "Sep",
-          "Oct",
-          "Nov",
-          "Dec",
-        ],
-      },
-      days: {
-        full: [
-          "Sunday",
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-        ],
-        short: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-      },
-      meridiem: { AM: "AM", am: "am", PM: "PM", pm: "pm" },
-    };
-      /* ]]> */
-  </script>
-  <script type="text/javascript"
-    src="https://82nd.gg/wp-content/plugins/google-calendar-events/assets/js/default-calendar.min.js?ver=3.1.36"
-    id="simcal-default-calendar-js"></script>
-  <script type="text/javascript"
-    src="https://82nd.gg/wp-content/plugins/google-calendar-events/assets/js/vendor/imagesloaded.pkgd.min.js?ver=3.1.36"
-    id="simplecalendar-imagesloaded-js"></script>
-  <script>
-    /(trident|msie)/i.test(navigator.userAgent) &&
-      document.getElementById &&
-      window.addEventListener &&
-      window.addEventListener(
-        "hashchange",
-        function () {
-          var t,
-            e = location.hash.substring(1);
-          /^[A-z0-9_-]+$/.test(e) &&
-            (t = document.getElementById(e)) &&
-            (/^(?:a|select|input|button|textarea)$/i.test(t.tagName) ||
-              (t.tabIndex = -1),
-              t.focus());
-        },
-        !1
-      );
-  </script>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168797935-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-    gtag("config", "UA-168797935-1");
-  </script>
 </body>
 
 </html>
