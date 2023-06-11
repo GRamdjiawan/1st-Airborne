@@ -892,7 +892,7 @@
             </div>
             <div class="widget widget_block">
               <div class="widget-content">
-                <a href="https://www.battlemetrics.com/servers/hll/15138013" target="_blank">
+                <a href="https://www.battlemetrics.com/servers/hll/20590449" target="_blank">
                   <figure class="wp-block-image">
                     <img decoding="async"
                       src="https://cdn.battlemetrics.com/b/horizontal500x80px/20590449.png?foreground=%23eeeeee&amp;background=%23222222&amp;lines=%23222222&amp;linkColor=%2364652d&amp;chartColor=%2322aa2c"
