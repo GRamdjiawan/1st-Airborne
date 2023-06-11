@@ -782,7 +782,7 @@
               </li>
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24">
                 <div class="ancestor-wrapper">
-                  <a href="#">About</a>
+                  <a href="./pages/about.php">About</a>
                 </div>
                 <!-- .ancestor-wrapper -->
               </li>
@@ -971,6 +971,10 @@
         <!-- .footer-social -->
       </nav>
       <!-- .footer-social-wrapper -->
+
+      <div class="ghost-block">
+
+      </div>
 
       <div id="footer-credits" class="wp-block-column">
         <a href="#" class="privacy-policy">Privacy Policy</a>

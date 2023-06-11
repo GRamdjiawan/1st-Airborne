@@ -737,10 +737,10 @@
           <ul class="primary-menu reset-list-style">
             <li id="menu-item-374"
               class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-55 current_page_item menu-item-374">
-              <a href="#" aria-current="page">Home</a>
+              <a href="../index.php">Home</a>
             </li>
             <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24">
-              <a href="#">About</a>
+              <a href="#" aria-current="page">About</a>
             </li>
             <li id="menu-item-1515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1515">
               <a href="#">Shop</a>
@@ -776,13 +776,13 @@
               <li
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-55 current_page_item menu-item-374">
                 <div class="ancestor-wrapper">
-                  <a href="#" aria-current="page">Home</a>
+                  <a href="../index.php" aria-current="page">Home</a>
                 </div>
                 <!-- .ancestor-wrapper -->
               </li>
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24">
                 <div class="ancestor-wrapper">
-                  <a href="#">About</a>
+                  <a href="#" aria-current="page">About</a>
                 </div>
                 <!-- .ancestor-wrapper -->
               </li>
@@ -853,29 +853,41 @@
   <!-- .menu-modal -->
 
   <main id="site-content" role="main">
-    <article class="post-55 page type-page status-publish hentry" id="post-55">
+    <article class="post-13 page type-page status-publish hentry" id="post-13">
       <header class="entry-header has-text-align-center header-footer-group">
         <div class="entry-header-inner section-inner medium">
-          <h1 class="entry-title">Welcome</h1>
-        </div>
-        <!-- .entry-header-inner -->
-      </header>
-      <!-- .entry-header -->
-
+          <h1 class="entry-title">About</h1>
+        </div><!-- .entry-header-inner -->
+      </header><!-- .entry-header -->
+      <div class="section-inner">
+        <p class="has-text-align-center has-background-background-color has-text-color has-larger-font-size"
+          style="color:#e0e0e0">Welcome To The 1st Airborne [1stA]</p>
+      </div>
       <div class="post-inner">
         <div class="entry-content">
-          <div style="height: 100px" aria-hidden="true" class="wp-block-spacer"></div>
-        </div>
-        <!-- .entry-content -->
-      </div>
-      <!-- .post-inner -->
 
-      <div class="section-inner"></div>
+          <p class="has-text-align-left has-background-background-color has-text-color has-background"
+            style="color:#e0e0e0"> Welcome to the 82nd Airborne Division [82AD] gaming community! </p>
+          <p class="has-text-align-left has-background-background-color has-text-color has-background"
+            style="color:#e0e0e0;font-size:-1px">We are an inclusive gaming community founded on the principles of
+            camaraderie, communication, teamwork and respect for others. We draw inspiration from the tales of valor and
+            companionship shown by the 82nd Airborne Division during key battles on the Western Front of WW2 and the
+            award winning TV show “Band of Brothers”, the setting for Hell Let Loose. </p>
+          <p class="has-text-align-left has-background-background-color has-text-color has-background"
+            style="color:#e0e0e0;font-size:-1px">Our inclusive gaming community, focused around our popular Hell Let
+            Loose public community server, [82AD] Band of Brothers, welcomes all fellow gamers from newcomers to
+            veterans to enjoy the game how it’s meant to be played. We are a rapidly growing gaming community with
+            exciting plans for the future in Hell Let Loose! Come join us on our public HLL server: [82AD] Band of
+            Brothers and recreate history. </p>
+          <p class="has-text-align-left has-background-background-color has-text-color has-background"
+            style="color:#e0e0e0;font-size:-1px">Think it over, you could be a part of something&#8230; </p>
+
+        </div><!-- .entry-content -->
+      </div><!-- .post-inner -->
       <!-- .section-inner -->
-    </article>
-    <!-- .post -->
-  </main>
-  <!-- #site-content -->
+    </article><!-- .post -->
+  </main><!-- #site-content -->
+
 
   <div class="footer-nav-widgets-wrapper header-footer-group">
     <div class="footer-inner section-inner">
@@ -971,7 +983,7 @@
         <!-- .footer-social -->
       </nav>
       <!-- .footer-social-wrapper -->
-
+      <div class="ghost-block"></div>
       <div id="footer-credits" class="wp-block-column">
         <a href="#" class="privacy-policy">Privacy Policy</a>
         &nbsp&nbsp&nbsp&nbsp&nbsp [1stA] &copy; 2023
