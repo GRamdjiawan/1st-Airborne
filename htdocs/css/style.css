@@ -35,8 +35,8 @@ body {
 
 p {
 	font-family: 'fira-sans', sans-serif;
-	color: black;
-	-webkit-text-stroke: 1.5px white;
+	color: white;
+	/* -webkit-text-stroke: .5px white; */
 }
 
 h1 {
@@ -68,12 +68,6 @@ h3 {
 	height: 100px;
 	width: 100px;
 	background-color: #991010;
-}
-
-.ghost-block {
-	height: 100px;
-	width: ;
-	/* background-color: #991010; */
 }
 
 .home-page {
@@ -708,7 +702,7 @@ hr.styled-separator::after {
 }
 
 a {
-	color: #991010;
+	color: #65662d;
 	text-decoration: underline;
 }
 
@@ -791,7 +785,7 @@ dd+dt {
 /* Quotes ------------------------------------ */
 
 blockquote {
-	border-color: #991010;
+	border-color: #65662d;
 	border-style: solid;
 
 	/*rtl:ignore*/
@@ -1055,7 +1049,7 @@ input[type="reset"],
 input[type="submit"] {
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	background: #991010;
+	background: #65662d;
 	border: none;
 	border-radius: 0;
 	color: #fff;
@@ -1311,7 +1305,7 @@ button.toggle {
 .color-accent,
 .color-accent-hover:focus,
 .color-accent-hover:hover {
-	color: #991010;
+	color: #65662d;
 }
 
 /* BACKGROUND COLOR */
@@ -1319,7 +1313,7 @@ button.toggle {
 .bg-accent,
 .bg-accent-hover:focus,
 .bg-accent-hover:hover {
-	background-color: #991010;
+	background-color: #65662d;
 }
 
 /* BORDER COLOR */
@@ -1327,14 +1321,14 @@ button.toggle {
 .border-color-accent,
 .border-color-accent-hover:focus,
 .border-color-accent-hover:hover {
-	border-color: #991010;
+	border-color: #65662d;
 }
 
 /* FILL COLOR */
 
 .fill-children-accent,
 .fill-children-accent * {
-	fill: #991010;
+	fill: #65662d;
 }
 
 .fill-children-current-color,
@@ -1524,7 +1518,7 @@ ul.social-icons li {
 
 .social-icons a {
 	align-items: center;
-	background: #991010;
+	background: #65662d;
 	/*#cd2653;*/
 	border-radius: 50%;
 	color: #fff;
@@ -2956,11 +2950,11 @@ h2.entry-title {
 /* CUSTOM COLORS */
 
 :root .has-accent-color {
-	color: #991010;
+	color: #65662d;
 }
 
 :root .has-accent-background-color {
-	background-color: #991010;
+	background-color: #65662d;
 	color: #fff;
 }
 
@@ -3018,7 +3012,7 @@ h2.entry-title {
 }
 
 .has-drop-cap:not(:focus)::first-letter {
-	color: #991010;
+	color: #65662d;
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 5.1em;
 	font-weight: 800;
@@ -3237,7 +3231,7 @@ h2.entry-title {
 }
 
 .wp-block-button.is-style-outline {
-	color: #991010;
+	color: #65662d;
 }
 
 .is-style-outline .wp-block-button__link:not(.has-text-color) {
@@ -3423,7 +3417,7 @@ figure.wp-block-gallery.alignfull {
 .wp-block-pullquote::before {
 	background: #fff;
 	border-radius: 50%;
-	color: #991010;
+	color: #65662d;
 	content: "â€";
 	display: block;
 	font-size: 6.2rem;
@@ -4024,7 +4018,7 @@ div.comment:first-of-type {
 }
 
 .comment-reply-link {
-	background-color: #991010;
+	background-color: #65662d;
 	color: #fff;
 	display: block;
 	padding: 0.7rem;
@@ -4622,7 +4616,7 @@ ul.footer-social li {
 }
 
 .footer-social a {
-	background-color: #991010;
+	background-color: #65662d;
 	/*#cd2653;*/
 	height: 3.6rem;
 	width: 3.6rem;
@@ -6600,7 +6594,7 @@ a.to-the-top>* {
 #af-wrapper .forum-post-menu a,
 #af-wrapper .post-author .topic-author,
 #af-wrapper #bottom-navigation {
-	color: #991010 !important;
+	color: #65662d !important;
 }
 
 #af-wrapper .post-message a {
@@ -6704,7 +6698,7 @@ a.to-the-top>* {
 }
 
 .mce-primary button {
-	background-color: #991010 !important;
+	background-color: #65662d !important;
 }
 
 .asgarosforum-widget .widget-content {
@@ -6725,7 +6719,7 @@ a.to-the-top>* {
 .fep-pagination>.active>span:hover,
 .fep-pagination>.active>a:focus,
 .fep-pagination>.active>span:focus {
-	background-color: #991010 !important;
+	background-color: #65662d !important;
 	border-color: #ffffff;
 }
 
@@ -6756,8 +6750,6 @@ a.to-the-top>* {
 	background-color: #000;
 }
 
-}
-
 .fep-unread-class {
 	margin-left: 2px;
 	padding: 1px 8px;
@@ -6778,7 +6770,7 @@ a.to-the-top>* {
 .footer-menu .menu-item-type-custom {
 	border: 2px solid #2c2c16;
 	border-radius: 20px 20px;
-	background-color: #991010;
+	background-color: #65662d;
 }
 
 .footer-menu .menu-item-type-custom a {
@@ -6944,7 +6936,7 @@ select.ideapush-status-filter:focus {
 #fight-box {
 	margin: auto;
 	width: 50%;
-	border: 2px solid #991010;
+	border: 2px solid #65662d;
 	text-align: center;
 	min-height: 40px;
 }

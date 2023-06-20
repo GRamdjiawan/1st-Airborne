@@ -743,7 +743,7 @@
               <a href="./pages/about.php">About</a>
             </li>
             <li id="menu-item-1515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1515">
-              <a href="#">Shop</a>
+              <a target="_blank" href="https://www.redbubble.com/people/1st-airborne/shop">Shop</a>
             </li>
             <li id="menu-item-1515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1515">
               <a target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=E7PCPUYZB9GSW">Donations</a>
@@ -788,7 +788,7 @@
               </li>
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1515">
                 <div class="ancestor-wrapper">
-                  <a href="#">Manual</a>
+                  <a target="_blank" href="https://www.redbubble.com/people/1st-airborne/shop">Shop</a>
                 </div>
                 <!-- .ancestor-wrapper -->
               </li>
