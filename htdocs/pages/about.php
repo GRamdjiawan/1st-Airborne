@@ -736,10 +736,10 @@
         <nav class="primary-menu-wrapper" aria-label="Horizontal" role="navigation">
           <ul class="primary-menu reset-list-style">
             <li id="menu-item-374"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-55 current_page_item menu-item-374">
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-55 current_page_item menu-item-374">
               <a href="../index.php" aria-current="page">Home</a>
             </li>
-            <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24">
+            <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item menu-item-24">
               <a href="#">About</a>
             </li>
             <li id="menu-item-1515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1515">
