@@ -929,7 +929,7 @@
       <nav aria-label="Social links" class="footer-social-wrapper wp-block-column">
         <ul class="social-menu footer-social reset-list-style social-icons fill-children-current-color">
           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31">
-            <a title="Join Discord" target="_blank" rel="noopener" href="https://discord.gg/DN2gvn9Mxe"><span
+            <a title="Join Discord" target="_blank" rel="noopener" href="https://discord.gg/1sta"><span
                 class="screen-reader-text">Join Discord</span><svg class="svg-icon" aria-hidden="true" role="img"
                 focusable="false" width="100" height="100" viewBox="-10 -20 270 270" xmlns="http://www.w3.org/2000/svg">
                 <path
